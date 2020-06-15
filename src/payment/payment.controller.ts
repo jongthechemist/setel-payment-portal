@@ -9,8 +9,8 @@ export class PaymentController {
   
   constructor(private readonly paymentService: PaymentService) {}
 
-  @Post(':id')
   @UseGuards(AuthGuard)
+  @Post(':id')
   async createPayment(
     @Param('id') orderUuid: string
   ): Promise<PaymentResponseDto> {
