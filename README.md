@@ -4,6 +4,11 @@ This project is for a technical assigment for Setel Full Stack Engineer. It is d
 
 ---
 
+## Enviroment
+An `.env` file is required to run the webapp. Create the file and copy the content from `.env.example`. Fill up the details before running/deployment.
+
+---
+
 ## Framework
 
 <p align="center">
